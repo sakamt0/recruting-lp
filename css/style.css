@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/* ====================
+common
+=================== */
+:root {
+
+}
+
+body {
+  font-family: "Noto Sans JP", Arial, sans-serif;
+  font-style: normal;
+  color: var(--primary-brown);
+  line-height: 1.8;
+  font-size: 1rem;
+  letter-spacing: 0.06em;
+  background-color: var(--primary-beige);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.document-wrapper {
+  overflow: clip;
+}
