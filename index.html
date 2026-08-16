@@ -23,6 +23,9 @@
     <title>ARCHI LIFE ESTATE Recruting</title>
 
     <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <!-- css -->
     <link rel="stylesheet" href="css/destyle.min.css" />
@@ -30,10 +33,37 @@
   </head>
   <body>
     <div class="document-wrapper">
-    <main class="main">
+      <header class="global-header">
+        <div class="header-inner sp-menu">
+            <a class="header-logo" href="/"><img src="img/logo.svg" alt=""></a>
+            <nav id="nav" class="header-nav">
+                <ul class="nav-list">
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">WORKS</a></li>
+                    <li><a href="#">INTERVIEW</a></li>
+                    <li><a href="#">ENVIRONMENT</a></li>
+                    <li><a class="header-entry" href="#">ENTRY</a></li>
+                </ul>
+            </nav>
 
-    </main>
-
+            <button class="hamburger-button js-button" type="button" aria-controls="nav" aria-expanded="false" aria-label="メニュー">
+              <span class="button-bar"></span>
+              <span class="button-bar"></span>
+            </button>
+        </div>
+      </header>
+      <section id="hero">
+        <div class="hero-inner">
+          <img src="img/hero.webp" alt="">
+              <h1 class="hero-title">
+                  <span class="hero-title-en">Preserving Spaces</span>
+                  <span class="hero-title-row">
+                    <span class="hero-title-en sp-letterspace">for the Future</span>
+                    <span class="hero-title-ja">空間を未来に残す</span>
+                  </span>
+              </h1>           
+        </div>
+      </section>
     </div>
     <script src="js/main.js"></script>
   </body>
