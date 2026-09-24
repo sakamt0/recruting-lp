@@ -196,12 +196,12 @@ margin-top: 0.3125rem;
     background-color: rgb(from var(--primary-black) r g b / 40%);
     backdrop-filter: blur(0.9375rem);
     color: var(--primary-white);
-    font-size: 1.125rem;
+    font-size: clamp(1.25rem, 0.849rem + 1.71vw, 1.875rem);
 
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
   }
 }
 
@@ -337,7 +337,7 @@ lead
   p {
     position: relative;
     z-index: 1;
-    width: clamp(14.25rem, 8.396rem + 24.98vw, 30.875rem);
+    width: clamp(15rem, 8.396rem + 24.98vw, 30.875rem);
     text-align: center;
     margin: 0 auto;
     font-size: clamp(0.938rem, 0.827rem + 0.47vw, 1.25rem);
